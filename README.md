@@ -24,18 +24,17 @@ NOTE: before running the installation, please make sure to follow the requiremen
 ```
 
 1. Go to `/Development` folder. Create `websites` folder.
-2. Git clone the `drupal-contenta`under `/Development/websites`.
-3. Go to `/drupal-contenta/` folder.
-4. Edit `lando.yml` then change the name `drupal-contenta` to your prefer name or base on your root directory name.
-5. Run `lando composer install` in the `/drupal-contenta/` directory.
-6. Run `lando composer update` in the `/drupal-contenta/` directory.
-7. Run `lando start`
-8. Copy the `.env.lando.example` and rename it to `.env`. Edit `.env`.
-9. Run `lando info` to get the credentials for `MYSQL_DATABASE`, `MYSQL_USER`, `MYSQL_PASSWORD`, `MYSQL_HOSTNAME`, `MYSQL_PORT`.
-10. Set your `MYSQL_DATABASE`, `MYSQL_USER`, `MYSQL_PASSWORD`. In `MYSQL_HOSTNAME`, leave it as `database` value and for `MYSQL_PORT`, leave it as `3306`.
+2. Remove `.git` under `/drupal-contenta/` folder.
+3. Git clone the `drupal-contenta`under `/Development/websites`.
+4. Go to `/drupal-contenta/` folder.
+5. Edit `lando.yml` then change the name `drupal-contenta` to your prefer name or base on your root directory name.
+6. Run `lando start`
+7. Copy the `.env.lando.example` and rename it to `.env`. Edit `.env`.
+8. Run `lando info` to get the credentials for `MYSQL_DATABASE`, `MYSQL_USER`, `MYSQL_PASSWORD`, `MYSQL_HOSTNAME`, `MYSQL_PORT`.
+9. Set your `MYSQL_DATABASE`, `MYSQL_USER`, `MYSQL_PASSWORD`. In `MYSQL_HOSTNAME`, leave it as `database` value and for `MYSQL_PORT`, leave it as `3306`.
+10. `lando composer run-script install:with-mysql` in the `/drupal-contenta/` directory.
 11. To run `drush-cli`, you can use `lando drush`.
-13. Remove `.git` under `/drupal-contenta/` folder.
-14. Last is to run `lando rebuild -y` in your terminal. Make sure you are in the root directory
+12. Last is to run `lando rebuild -y` in your terminal. Make sure you are in the root directory
 
 ### # Drupal Installation
 ```
@@ -44,9 +43,9 @@ NOTE: before running the installation, please make sure to follow the requiremen
 
 1. Clone the project repo 
 2. Delete the `.git` folder inside the root directory
-3. Run `composer update` in the root directory
-4. Install Drupal like normal.
-5. After install the Drupal, remove the database setup that was created by drupal core and use the current database setup for ```.env```.
+3. Copy the `.env.example` and rename it to `.env`. Edit `.env`.
+4. Set your `MYSQL_DATABASE`, `MYSQL_USER`, `MYSQL_PASSWORD`. In `MYSQL_HOSTNAME`, leave it as `localhost` value and for `MYSQL_PORT`, leave it as `3306`.
+5. Run `composer run-script install:with-mysql` in the root directory.
 6. Uncomment
 `if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {  include $app_root . '/' . $site_path . ' settingslocal.php'; }` in `settings.php` to enable development mode
 7. Clear cache, Run updb, Run cron
