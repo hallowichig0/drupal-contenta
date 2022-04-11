@@ -32,7 +32,7 @@ NOTE: before running the installation, please make sure to follow the requiremen
 7. Copy the `.env.lando.example` and rename it to `.env`. Edit `.env`.
 8. Run `lando info` to get the credentials for `MYSQL_DATABASE`, `MYSQL_USER`, `MYSQL_PASSWORD`, `MYSQL_HOSTNAME`, `MYSQL_PORT`.
 9. Set your `MYSQL_DATABASE`, `MYSQL_USER`, `MYSQL_PASSWORD`. In `MYSQL_HOSTNAME`, leave it as `database` value and for `MYSQL_PORT`, leave it as `3306`.
-10. `lando composer run-script install:with-mysql` in the `/drupal-contenta/` directory.
+10. Run `lando composer run-script install:with-mysql` in the `/drupal-contenta/` directory.
 11. To run `drush-cli`, you can use `lando drush`.
 12. Last is to run `lando rebuild -y` in your terminal. Make sure you are in the root directory
 
