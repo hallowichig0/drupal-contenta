@@ -1,0 +1,17 @@
+name: drupal-contenta
+recipe: drupal9
+env_file:
+  - .env
+config:
+  php: '8.1'
+  composer_version: 2
+  via: apache
+  webroot: web
+  database: mysql
+  xdebug: true
+
+services:
+  phpmyadmin:
+    type: phpmyadmin
+    hosts:
+      - database
