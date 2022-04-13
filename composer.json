@@ -30,6 +30,7 @@
         "drupal/admin_toolbar": "^3.1",
         "drupal/backup_migrate": "^5.0",
         "drupal/config_perms": "^2.0",
+        "drupal/content_sync": "^3.0@beta",
         "drupal/core-composer-scaffold": "^9.0",
         "drupal/db_maintenance": "^2.0",
         "drupal/devel": "^4.1",
