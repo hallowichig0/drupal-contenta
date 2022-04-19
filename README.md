@@ -63,9 +63,6 @@ Go to the `settings.local.php`. Comment these line of code:
 - `$settings['cache']['bins']['page'] = 'cache.backend.null';`
 - `$settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';`
 
-### # Restore Backup from backup migrate
-Restore the backup from backup migrate to enable the configuration for the themes, modules & core
-
 ### # Going to live the Website
 Make sure to change the permission of the folder.
 List of folders and files to change:
