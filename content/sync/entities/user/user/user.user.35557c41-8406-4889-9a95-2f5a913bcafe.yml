@@ -1,0 +1,33 @@
+uuid:
+  -
+    value: 35557c41-8406-4889-9a95-2f5a913bcafe
+langcode:
+  -
+    value: en
+name:
+  -
+    value: system
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+user_picture: {  }
+_content_sync:
+  entity_type: user
+pass:
+  -
+    value: $S$E5N7goWyJjQwCjE3hgGrFR82MGgUCYYdqW4P19AXp.i8sMkJ5M2B
+    pre_hashed: true
+mail:
+  value: garciajayson502@gmail.com
+status:
+  value: '1'
+roles:
+  - authenticated

@@ -1,0 +1,33 @@
+uuid:
+  -
+    value: 85c0fa68-cf0c-4628-acf6-f8ed956fb943
+langcode:
+  -
+    value: en
+name:
+  -
+    value: 'Preston So'
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+user_picture: {  }
+_content_sync:
+  entity_type: user
+pass:
+  -
+    value: null
+    pre_hashed: true
+mail:
+  value: gdMtt4fC@example.com
+status:
+  value: '1'
+roles:
+  - authenticated

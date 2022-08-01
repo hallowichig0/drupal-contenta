@@ -1,0 +1,79 @@
+uuid:
+  -
+    value: 67193bc1-c4cc-4d4c-9cbd-5c8fdd2f734a
+langcode:
+  -
+    value: en
+type:
+  -
+    target_id: tutorial
+    target_type: node_type
+    target_uuid: c4052544-e630-473f-ae0d-7b39982e39bb
+revision_timestamp:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: 21076e62-44ce-4c98-9f6a-15b29dafe398
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_type: user
+    target_uuid: 21076e62-44ce-4c98-9f6a-15b29dafe398
+title:
+  -
+    value: 'Contenta Docker: Initial Install'
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+field_image:
+  -
+    target_type: media
+    target_uuid: 751562c2-9feb-46fb-a5e1-0d30b2a51213
+field_link:
+  -
+    uri: 'https://www.youtube.com/watch?v=Wy-Wu61_MEg'
+    title: 'Watch Video'
+    options: {  }
+field_summary:
+  -
+    value: 'Contenta provides a Docker project to get you up and running with Contenta super easy. In this screencast, we run through the install of Contenta via Docker Compose.'
+    format: basic_html
+    processed: 'Contenta provides a Docker project to get you up and running with Contenta super easy. In this screencast, we run through the install of Contenta via Docker Compose.'
+field_topic:
+  -
+    value: Miscelaneous
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.21076e62-44ce-4c98-9f6a-15b29dafe398
+    media:
+      - media.image.751562c2-9feb-46fb-a5e1-0d30b2a51213

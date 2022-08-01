@@ -1,0 +1,17 @@
+uuid:
+  -
+    value: 5a180ec0-bb86-4e4b-82cd-8c5e156702d1
+langcode:
+  -
+    value: en
+path:
+  -
+    value: /node/3
+alias:
+  -
+    value: /articles/the-umami-guide-to-our-favourite-mushrooms
+status:
+  -
+    value: true
+_content_sync:
+  entity_type: path_alias

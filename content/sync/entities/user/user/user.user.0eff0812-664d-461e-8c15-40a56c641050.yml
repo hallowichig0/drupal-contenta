@@ -1,0 +1,33 @@
+uuid:
+  -
+    value: 0eff0812-664d-461e-8c15-40a56c641050
+langcode:
+  -
+    value: en
+name:
+  -
+    value: 'Campbell Vertesi'
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+user_picture: {  }
+_content_sync:
+  entity_type: user
+pass:
+  -
+    value: null
+    pre_hashed: true
+mail:
+  value: rNOf8gXh@example.com
+status:
+  value: '1'
+roles:
+  - authenticated

@@ -1,0 +1,79 @@
+uuid:
+  -
+    value: e14b624c-21cc-4d1f-a59f-6cd9b17ef4ba
+langcode:
+  -
+    value: en
+type:
+  -
+    target_id: tutorial
+    target_type: node_type
+    target_uuid: c4052544-e630-473f-ae0d-7b39982e39bb
+revision_timestamp:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: 09cdee56-b553-47ac-91be-ac92c694d92c
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_type: user
+    target_uuid: 09cdee56-b553-47ac-91be-ac92c694d92c
+title:
+  -
+    value: 'JSON-RPC to decouple everything else'
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+field_image:
+  -
+    target_type: media
+    target_uuid: e4791292-f7ae-41e6-a0b3-54690f420fdd
+field_link:
+  -
+    uri: 'https://www.lullabot.com/articles/jsonrpc-to-decouple-everything-else'
+    title: 'Read Article'
+    options: {  }
+field_summary:
+  -
+    value: 'During the week of DrupalCon we discussed some limitations decoupling Drupal. We concluded that we need a reliable, flexible and secure way for Drupal developers to decouple everything else.'
+    format: basic_html
+    processed: 'During the week of DrupalCon we discussed some limitations decoupling Drupal. We concluded that we need a reliable, flexible and secure way for Drupal developers to decouple everything else.'
+field_topic:
+  -
+    value: Miscelaneous
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.09cdee56-b553-47ac-91be-ac92c694d92c
+    media:
+      - media.image.e4791292-f7ae-41e6-a0b3-54690f420fdd

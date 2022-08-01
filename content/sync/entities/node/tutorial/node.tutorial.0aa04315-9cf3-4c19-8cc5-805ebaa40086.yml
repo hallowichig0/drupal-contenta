@@ -1,0 +1,79 @@
+uuid:
+  -
+    value: 0aa04315-9cf3-4c19-8cc5-805ebaa40086
+langcode:
+  -
+    value: en
+type:
+  -
+    target_id: tutorial
+    target_type: node_type
+    target_uuid: c4052544-e630-473f-ae0d-7b39982e39bb
+revision_timestamp:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: 6c96bf4e-089d-4d0e-a17c-0c202ae9e853
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_type: user
+    target_uuid: 6c96bf4e-089d-4d0e-a17c-0c202ae9e853
+title:
+  -
+    value: 'Decoupling in drupal 8 based on a proven model'
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+field_image:
+  -
+    target_type: media
+    target_uuid: 751562c2-9feb-46fb-a5e1-0d30b2a51213
+field_link:
+  -
+    uri: 'https://www.mediacurrent.com/blog/introducing-decoupled-blocks-module-decoupling-drupal-8-based-proven-model'
+    title: 'Read Article'
+    options: {  }
+field_summary:
+  -
+    value: 'Matt Davis of Mediacurrent introduces us to a module that provides the ability to progressively decouple blocks in Drupal 8.'
+    format: basic_html
+    processed: 'Matt Davis of Mediacurrent introduces us to a module that provides the ability to progressively decouple blocks in Drupal 8.'
+field_topic:
+  -
+    value: Miscelaneous
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.6c96bf4e-089d-4d0e-a17c-0c202ae9e853
+    media:
+      - media.image.751562c2-9feb-46fb-a5e1-0d30b2a51213

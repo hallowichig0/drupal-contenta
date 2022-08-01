@@ -1,0 +1,79 @@
+uuid:
+  -
+    value: d73af592-7e84-44bc-9e4d-b6326f9e2bf9
+langcode:
+  -
+    value: en
+type:
+  -
+    target_id: tutorial
+    target_type: node_type
+    target_uuid: c4052544-e630-473f-ae0d-7b39982e39bb
+revision_timestamp:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: f1bc0264-554f-406f-aa25-a1071ffab87f
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_type: user
+    target_uuid: f1bc0264-554f-406f-aa25-a1071ffab87f
+title:
+  -
+    value: 'Gatsby JS: A Powerful Front End Tool for Decoupled Devs'
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+field_image:
+  -
+    target_type: media
+    target_uuid: 3027c974-5ee0-4cac-8810-c05c526a61d0
+field_link:
+  -
+    uri: 'https://www.youtube.com/watch?v=UgWBJnbZ9jU'
+    title: 'Watch Video'
+    options: {  }
+field_summary:
+  -
+    value: 'Want to learn about GatsbyJS? What is it? How can it help you and your team? Is it a framework? Is it a static site generator? GatsbyJS is an exciting way of thinking about building sites for the modern web.'
+    format: basic_html
+    processed: 'Want to learn about GatsbyJS? What is it? How can it help you and your team? Is it a framework? Is it a static site generator? GatsbyJS is an exciting way of thinking about building sites for the modern web.'
+field_topic:
+  -
+    value: Miscelaneous
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.f1bc0264-554f-406f-aa25-a1071ffab87f
+    media:
+      - media.image.3027c974-5ee0-4cac-8810-c05c526a61d0

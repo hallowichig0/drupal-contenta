@@ -1,0 +1,33 @@
+uuid:
+  -
+    value: 5afa003d-8da8-4ba2-b152-2ac5b4a40216
+langcode:
+  -
+    value: en
+uid: {  }
+filename:
+  -
+    value: routing.jpg
+uri:
+  -
+    value: 'public://routing.jpg'
+    url: /sites/default/files/routing.jpg
+filemime:
+  -
+    value: image/jpeg
+filesize:
+  -
+    value: 231321
+status:
+  -
+    value: true
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file

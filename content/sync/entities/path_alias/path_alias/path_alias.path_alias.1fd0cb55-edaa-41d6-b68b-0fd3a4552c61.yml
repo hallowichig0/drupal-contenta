@@ -1,0 +1,17 @@
+uuid:
+  -
+    value: 1fd0cb55-edaa-41d6-b68b-0fd3a4552c61
+langcode:
+  -
+    value: en
+path:
+  -
+    value: /node/5
+alias:
+  -
+    value: /articles/baking-mishaps-our-troubleshooting-tips
+status:
+  -
+    value: true
+_content_sync:
+  entity_type: path_alias

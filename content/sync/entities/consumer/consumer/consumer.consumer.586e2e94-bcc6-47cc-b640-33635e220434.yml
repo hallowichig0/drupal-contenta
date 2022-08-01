@@ -1,0 +1,45 @@
+uuid:
+  -
+    value: 586e2e94-bcc6-47cc-b640-33635e220434
+langcode:
+  -
+    value: en
+owner_id:
+  -
+    target_id: 0
+    target_type: user
+    target_uuid: 8d62617e-3264-4653-b785-dc1cbff69afb
+label:
+  -
+    value: 'Default Consumer'
+description:
+  -
+    value: 'This is the default consumer. This was created programmatically when the Consumers module was first installed. Feel free to edit, or delete this.'
+image:
+  -
+    target_id: null
+    alt: null
+    title: null
+    width: null
+    height: null
+third_party:
+  -
+    value: true
+is_default:
+  -
+    value: true
+default_langcode:
+  -
+    value: true
+image_styles: {  }
+secret: {  }
+confidential: {  }
+roles: {  }
+redirect: {  }
+user_id: {  }
+pkce: {  }
+_content_sync:
+  entity_type: consumer
+  entity_dependencies:
+    user:
+      - user.user.8d62617e-3264-4653-b785-dc1cbff69afb

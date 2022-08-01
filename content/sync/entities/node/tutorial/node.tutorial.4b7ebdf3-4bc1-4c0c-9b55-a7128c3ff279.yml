@@ -1,0 +1,79 @@
+uuid:
+  -
+    value: 4b7ebdf3-4bc1-4c0c-9b55-a7128c3ff279
+langcode:
+  -
+    value: en
+type:
+  -
+    target_id: tutorial
+    target_type: node_type
+    target_uuid: c4052544-e630-473f-ae0d-7b39982e39bb
+revision_timestamp:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: 57dfe019-2e28-4745-8932-ea1013c20924
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_type: user
+    target_uuid: 57dfe019-2e28-4745-8932-ea1013c20924
+title:
+  -
+    value: 'Introduction to OAuth2'
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+field_image:
+  -
+    target_type: media
+    target_uuid: 347ef761-08db-4d46-aace-9af204f3f337
+field_link:
+  -
+    uri: 'https://www.youtube.com/watch?v=rTcC0maPLSA&list=PLZOQ_ZMpYrZtqy5-o7KoDhM3n6M0duBjX&index=1'
+    title: 'Watch Video'
+    options: {  }
+field_summary:
+  -
+    value: 'Quick review and understanding of OAuth2.'
+    format: basic_html
+    processed: 'Quick review and understanding of OAuth2.'
+field_topic:
+  -
+    value: OAuth2
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.57dfe019-2e28-4745-8932-ea1013c20924
+    media:
+      - media.image.347ef761-08db-4d46-aace-9af204f3f337

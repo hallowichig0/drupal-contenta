@@ -1,0 +1,33 @@
+uuid:
+  -
+    value: 57dfe019-2e28-4745-8932-ea1013c20924
+langcode:
+  -
+    value: en
+name:
+  -
+    value: 'Contenta team'
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+user_picture: {  }
+_content_sync:
+  entity_type: user
+pass:
+  -
+    value: null
+    pre_hashed: true
+mail:
+  value: null
+status:
+  value: '1'
+roles:
+  - authenticated

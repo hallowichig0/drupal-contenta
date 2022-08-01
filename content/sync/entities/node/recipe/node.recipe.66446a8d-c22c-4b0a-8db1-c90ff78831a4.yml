@@ -1,0 +1,135 @@
+uuid:
+  -
+    value: 66446a8d-c22c-4b0a-8db1-c90ff78831a4
+langcode:
+  -
+    value: en
+type:
+  -
+    target_id: recipe
+    target_type: node_type
+    target_uuid: 5919b43e-c8e4-4f05-9893-e9fd95bb3ac3
+revision_timestamp:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: 8fdd49e8-3695-4f2b-ad4d-34926228525b
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_type: user
+    target_uuid: 8fdd49e8-3695-4f2b-ad4d-34926228525b
+title:
+  -
+    value: 'Victoria sponge cake'
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: true
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+path:
+  -
+    alias: /recipes/victoria-sponge-cake
+field_author:
+  -
+    target_type: user
+    target_uuid: 8fdd49e8-3695-4f2b-ad4d-34926228525b
+field_cooking_time:
+  -
+    value: 20
+field_difficulty:
+  -
+    value: easy
+field_image:
+  -
+    target_type: media
+    target_uuid: c43383e7-eca6-4d1a-a532-e225649c2ab3
+field_ingredients:
+  -
+    value: '225g butter or margarine'
+  -
+    value: '225g caster sugar'
+  -
+    value: '225g self-raising flour'
+  -
+    value: '4 eggs'
+  -
+    value: '1 tsp baking powder'
+  -
+    value: '3 tbsp of jam for the filling'
+  -
+    value: 'Icing sugar to dust the top'
+  -
+    value: 'Cream to serve'
+field_number_of_servings:
+  -
+    value: 10
+field_preparation_time:
+  -
+    value: 20
+field_recipe_category:
+  -
+    target_type: taxonomy_term
+    target_uuid: 373aeb77-5547-4a3e-90a4-51bfd7d5d87e
+field_recipe_instruction:
+  -
+    value: |
+      <ol>
+        <li>Preheat the oven to 350°F/180°C and grease two 8 inch cake tins.</li>
+        <li>In a large bowl, mix the butter and sugar together, then add the eggs, flour and baking powder.</li>
+        <li>Spread the mix evenly between the 2 cake tins.</li>
+        <li>Place both tins in the middle of the preheated oven for 20 minutes, before checking with a knife. When the knife comes out clean, it's ready!</li>
+        <li>Allow to cool in the tins before moving them onto a cooling rack.</li>
+        <li>Add the jam, stack, dust with icing sugar and serve with a big dollop of cream. Enjoy!</li>
+      </ol>
+    format: null
+    processed: |
+      <p>&lt;ol&gt;<br />
+        &lt;li&gt;Preheat the oven to 350°F/180°C and grease two 8 inch cake tins.&lt;/li&gt;<br />
+        &lt;li&gt;In a large bowl, mix the butter and sugar together, then add the eggs, flour and baking powder.&lt;/li&gt;<br />
+        &lt;li&gt;Spread the mix evenly between the 2 cake tins.&lt;/li&gt;<br />
+        &lt;li&gt;Place both tins in the middle of the preheated oven for 20 minutes, before checking with a knife. When the knife comes out clean, it&#039;s ready!&lt;/li&gt;<br />
+        &lt;li&gt;Allow to cool in the tins before moving them onto a cooling rack.&lt;/li&gt;<br />
+        &lt;li&gt;Add the jam, stack, dust with icing sugar and serve with a big dollop of cream. Enjoy!&lt;/li&gt;<br />
+      &lt;/ol&gt;</p>
+field_summary:
+  -
+    value: 'A traditional Victoria sponge cake, perfect for any afternoon with a cup of tea.'
+    format: null
+    processed: |
+      <p>A traditional Victoria sponge cake, perfect for any afternoon with a cup of tea.</p>
+field_tags:
+  -
+    target_type: taxonomy_term
+    target_uuid: 1fe7d9d8-553b-488c-9bf2-c1b3fafd93a6
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.8fdd49e8-3695-4f2b-ad4d-34926228525b
+    media:
+      - media.image.c43383e7-eca6-4d1a-a532-e225649c2ab3
+    taxonomy_term:
+      - taxonomy_term.category.373aeb77-5547-4a3e-90a4-51bfd7d5d87e
+      - taxonomy_term.tags.1fe7d9d8-553b-488c-9bf2-c1b3fafd93a6

@@ -1,0 +1,12 @@
+langcode: en
+uuid: b7cc8588-03e5-49cb-87cf-a28b771415b8
+name: 'Contenta JSON API'
+mail: garciajayson502@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/6
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

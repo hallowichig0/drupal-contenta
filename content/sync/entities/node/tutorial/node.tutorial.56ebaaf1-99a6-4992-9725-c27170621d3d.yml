@@ -1,0 +1,79 @@
+uuid:
+  -
+    value: 56ebaaf1-99a6-4992-9725-c27170621d3d
+langcode:
+  -
+    value: en
+type:
+  -
+    target_id: tutorial
+    target_type: node_type
+    target_uuid: c4052544-e630-473f-ae0d-7b39982e39bb
+revision_timestamp:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: 57dfe019-2e28-4745-8932-ea1013c20924
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_type: user
+    target_uuid: 57dfe019-2e28-4745-8932-ea1013c20924
+title:
+  -
+    value: 'Sparse Fieldsets'
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+field_image:
+  -
+    target_type: media
+    target_uuid: b9183510-390c-4201-96c1-cbb768f96ce7
+field_link:
+  -
+    uri: 'https://www.youtube.com/watch?v=w4b2wd3tsm4&list=PLZOQ_ZMpYrZsyO-3IstImK1okrpfAjuMZ&index=7'
+    title: 'Watch Video'
+    options: {  }
+field_summary:
+  -
+    value: 'If you are getting too much data back from the JSON API server, then you can benefit greatly from using sparse fieldsets.'
+    format: basic_html
+    processed: 'If you are getting too much data back from the JSON API server, then you can benefit greatly from using sparse fieldsets.'
+field_topic:
+  -
+    value: 'JSON API'
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.57dfe019-2e28-4745-8932-ea1013c20924
+    media:
+      - media.image.b9183510-390c-4201-96c1-cbb768f96ce7

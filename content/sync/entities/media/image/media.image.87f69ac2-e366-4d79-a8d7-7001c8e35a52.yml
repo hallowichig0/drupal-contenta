@@ -1,0 +1,70 @@
+uuid:
+  -
+    value: 87f69ac2-e366-4d79-a8d7-7001c8e35a52
+langcode:
+  -
+    value: en
+bundle:
+  -
+    target_id: image
+    target_type: media_type
+    target_uuid: 588b2ee9-08f7-4e4a-aa8d-198563832e00
+revision_created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_user: {  }
+revision_log_message: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_id: 0
+    target_type: user
+    target_uuid: 8d62617e-3264-4653-b785-dc1cbff69afb
+name:
+  -
+    value: supermarket-savvy-umami.jpg
+thumbnail:
+  -
+    alt: null
+    title: null
+    width: 768
+    height: 512
+    target_type: file
+    target_uuid: bdab18e5-932d-4401-ae6b-a743cba51b8f
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+field_image:
+  -
+    alt: null
+    title: null
+    width: 768
+    height: 512
+    target_type: file
+    target_uuid: bdab18e5-932d-4401-ae6b-a743cba51b8f
+_content_sync:
+  entity_type: media
+  entity_dependencies:
+    user:
+      - user.user.8d62617e-3264-4653-b785-dc1cbff69afb
+    file:
+      - file.file.bdab18e5-932d-4401-ae6b-a743cba51b8f

@@ -1,0 +1,33 @@
+uuid:
+  -
+    value: 0dc7939b-0fab-461f-a5c4-59a159e12244
+langcode:
+  -
+    value: en
+uid: {  }
+filename:
+  -
+    value: simple-oauth-8.png
+uri:
+  -
+    value: 'public://simple-oauth-8.png'
+    url: /sites/default/files/simple-oauth-8.png
+filemime:
+  -
+    value: image/png
+filesize:
+  -
+    value: 984171
+status:
+  -
+    value: true
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file

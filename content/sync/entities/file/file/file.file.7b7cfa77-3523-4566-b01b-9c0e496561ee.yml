@@ -1,0 +1,33 @@
+uuid:
+  -
+    value: 7b7cfa77-3523-4566-b01b-9c0e496561ee
+langcode:
+  -
+    value: en
+uid: {  }
+filename:
+  -
+    value: elm.png
+uri:
+  -
+    value: 'public://elm.png'
+    url: /sites/default/files/elm.png
+filemime:
+  -
+    value: image/png
+filesize:
+  -
+    value: 6613
+status:
+  -
+    value: true
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file

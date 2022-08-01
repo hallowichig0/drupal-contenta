@@ -1,0 +1,33 @@
+uuid:
+  -
+    value: 8f4056a1-7d7a-45ce-9e5c-8d1533bb7da4
+langcode:
+  -
+    value: en
+uid: {  }
+filename:
+  -
+    value: heritage-carrots.jpg
+uri:
+  -
+    value: 'public://heritage-carrots.jpg'
+    url: /sites/default/files/heritage-carrots.jpg
+filemime:
+  -
+    value: image/jpeg
+filesize:
+  -
+    value: 36372
+status:
+  -
+    value: true
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file

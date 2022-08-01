@@ -1,0 +1,33 @@
+uuid:
+  -
+    value: 548ac619-7ab7-4a14-aa31-6d591735fffb
+langcode:
+  -
+    value: en
+name:
+  -
+    value: 'Vasi Chindris'
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+user_picture: {  }
+_content_sync:
+  entity_type: user
+pass:
+  -
+    value: null
+    pre_hashed: true
+mail:
+  value: l7PKlfId@example.com
+status:
+  value: '1'
+roles:
+  - authenticated

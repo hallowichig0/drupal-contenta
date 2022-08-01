@@ -1,0 +1,33 @@
+uuid:
+  -
+    value: bb62a274-9e8b-4bd5-af86-09596b4d13fa
+langcode:
+  -
+    value: en
+uid: {  }
+filename:
+  -
+    value: thai-green-curry-umami.jpg
+uri:
+  -
+    value: 'public://thai-green-curry-umami.jpg'
+    url: /sites/default/files/thai-green-curry-umami.jpg
+filemime:
+  -
+    value: image/jpeg
+filesize:
+  -
+    value: 38674
+status:
+  -
+    value: true
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file

@@ -1,0 +1,70 @@
+uuid:
+  -
+    value: bfb5f447-bc05-4b38-ba49-706a54654b11
+langcode:
+  -
+    value: en
+bundle:
+  -
+    target_id: image
+    target_type: media_type
+    target_uuid: 588b2ee9-08f7-4e4a-aa8d-198563832e00
+revision_created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_user: {  }
+revision_log_message: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_id: 0
+    target_type: user
+    target_uuid: 8d62617e-3264-4653-b785-dc1cbff69afb
+name:
+  -
+    value: jsonapi-5.png
+thumbnail:
+  -
+    alt: null
+    title: null
+    width: 1280
+    height: 720
+    target_type: file
+    target_uuid: 56c8504f-9d36-4180-b4d2-726c8dc2c9ff
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+field_image:
+  -
+    alt: null
+    title: null
+    width: 1280
+    height: 720
+    target_type: file
+    target_uuid: 56c8504f-9d36-4180-b4d2-726c8dc2c9ff
+_content_sync:
+  entity_type: media
+  entity_dependencies:
+    user:
+      - user.user.8d62617e-3264-4653-b785-dc1cbff69afb
+    file:
+      - file.file.56c8504f-9d36-4180-b4d2-726c8dc2c9ff

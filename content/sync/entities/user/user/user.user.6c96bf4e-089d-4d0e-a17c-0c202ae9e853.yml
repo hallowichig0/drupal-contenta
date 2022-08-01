@@ -1,0 +1,33 @@
+uuid:
+  -
+    value: 6c96bf4e-089d-4d0e-a17c-0c202ae9e853
+langcode:
+  -
+    value: en
+name:
+  -
+    value: 'Matt Davis'
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+user_picture: {  }
+_content_sync:
+  entity_type: user
+pass:
+  -
+    value: null
+    pre_hashed: true
+mail:
+  value: pTvIBxtl@example.com
+status:
+  value: '1'
+roles:
+  - authenticated

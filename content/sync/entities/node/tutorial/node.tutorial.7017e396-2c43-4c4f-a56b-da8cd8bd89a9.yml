@@ -1,0 +1,79 @@
+uuid:
+  -
+    value: 7017e396-2c43-4c4f-a56b-da8cd8bd89a9
+langcode:
+  -
+    value: en
+type:
+  -
+    target_id: tutorial
+    target_type: node_type
+    target_uuid: c4052544-e630-473f-ae0d-7b39982e39bb
+revision_timestamp:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: 21076e62-44ce-4c98-9f6a-15b29dafe398
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_type: user
+    target_uuid: 21076e62-44ce-4c98-9f6a-15b29dafe398
+title:
+  -
+    value: 'Contenta Docker: Adding a Consumer'
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+field_image:
+  -
+    target_type: media
+    target_uuid: 751562c2-9feb-46fb-a5e1-0d30b2a51213
+field_link:
+  -
+    uri: 'https://www.youtube.com/watch?v=WCgw59ktMOg'
+    title: 'Watch Video'
+    options: {  }
+field_summary:
+  -
+    value: 'Building off of the Contenta Docker project, we are going to add a Polymer frontend application to comunicate with our decoupled backend.'
+    format: basic_html
+    processed: 'Building off of the Contenta Docker project, we are going to add a Polymer frontend application to comunicate with our decoupled backend.'
+field_topic:
+  -
+    value: Miscelaneous
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.21076e62-44ce-4c98-9f6a-15b29dafe398
+    media:
+      - media.image.751562c2-9feb-46fb-a5e1-0d30b2a51213

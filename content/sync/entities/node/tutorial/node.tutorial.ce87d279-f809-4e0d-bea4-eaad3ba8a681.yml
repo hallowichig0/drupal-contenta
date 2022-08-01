@@ -1,0 +1,79 @@
+uuid:
+  -
+    value: ce87d279-f809-4e0d-bea4-eaad3ba8a681
+langcode:
+  -
+    value: en
+type:
+  -
+    target_id: tutorial
+    target_type: node_type
+    target_uuid: c4052544-e630-473f-ae0d-7b39982e39bb
+revision_timestamp:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: 09cdee56-b553-47ac-91be-ac92c694d92c
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_type: user
+    target_uuid: 09cdee56-b553-47ac-91be-ac92c694d92c
+title:
+  -
+    value: 'Contenta Makes Your Content Happy'
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+field_image:
+  -
+    target_type: media
+    target_uuid: 751562c2-9feb-46fb-a5e1-0d30b2a51213
+field_link:
+  -
+    uri: 'https://medium.com/@mateu.aguilo.bosch/contenta-makes-your-content-happy-6f76bbe0cdae'
+    title: 'Read Article'
+    options: {  }
+field_summary:
+  -
+    value: 'Contenta is a Drupal distribution that gives you modern API capabilities out-of-the box with JSON API, which amongst other features allows you to fetch nested resources in one request. It’s ready to feed content to your JavaScript powered website, phone app, TV, or even the mythical fridge application.'
+    format: basic_html
+    processed: 'Contenta is a Drupal distribution that gives you modern API capabilities out-of-the box with JSON API, which amongst other features allows you to fetch nested resources in one request. It’s ready to feed content to your JavaScript powered website, phone app, TV, or even the mythical fridge application.'
+field_topic:
+  -
+    value: Miscelaneous
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.09cdee56-b553-47ac-91be-ac92c694d92c
+    media:
+      - media.image.751562c2-9feb-46fb-a5e1-0d30b2a51213

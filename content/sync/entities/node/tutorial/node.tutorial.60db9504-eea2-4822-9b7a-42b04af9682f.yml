@@ -1,0 +1,79 @@
+uuid:
+  -
+    value: 60db9504-eea2-4822-9b7a-42b04af9682f
+langcode:
+  -
+    value: en
+type:
+  -
+    target_id: tutorial
+    target_type: node_type
+    target_uuid: c4052544-e630-473f-ae0d-7b39982e39bb
+revision_timestamp:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: 37f6985c-5691-4c98-9ac5-30bc3cb8cdcc
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_type: user
+    target_uuid: 37f6985c-5691-4c98-9ac5-30bc3cb8cdcc
+title:
+  -
+    value: 'Decoupled Drupal and Ember'
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+field_image:
+  -
+    target_type: media
+    target_uuid: 751562c2-9feb-46fb-a5e1-0d30b2a51213
+field_link:
+  -
+    uri: 'http://www.nextide.ca/decoupled-drupal-with-ember-part1'
+    title: 'Read Article'
+    options: {  }
+field_summary:
+  -
+    value: 'This is the first in a series of articles that will document lessons learned while exploring using Ember as a decoupled client with Drupal.'
+    format: basic_html
+    processed: 'This is the first in a series of articles that will document lessons learned while exploring using Ember as a decoupled client with Drupal.'
+field_topic:
+  -
+    value: 'JSON API'
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.37f6985c-5691-4c98-9ac5-30bc3cb8cdcc
+    media:
+      - media.image.751562c2-9feb-46fb-a5e1-0d30b2a51213

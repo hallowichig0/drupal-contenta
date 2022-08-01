@@ -1,0 +1,79 @@
+uuid:
+  -
+    value: 14a424c9-e98e-4c90-b94e-92894d8fb3a5
+langcode:
+  -
+    value: en
+type:
+  -
+    target_id: tutorial
+    target_type: node_type
+    target_uuid: c4052544-e630-473f-ae0d-7b39982e39bb
+revision_timestamp:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: f1dae084-8feb-4fd7-9c1a-67a01b8e5ffc
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_type: user
+    target_uuid: f1dae084-8feb-4fd7-9c1a-67a01b8e5ffc
+title:
+  -
+    value: 'Should you Decouple?'
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+field_image:
+  -
+    target_type: media
+    target_uuid: d3a90005-5751-4ce3-92c5-130bcb225fa4
+field_link:
+  -
+    uri: 'https://www.lullabot.com/articles/should-you-decouple'
+    title: 'Read Article'
+    options: {  }
+field_summary:
+  -
+    value: 'One of the major topics of discussion in the Drupal community has been decoupled (or headless) Drupal. Depending on who you ask, it’s either the best way to build break-through user experiences, or nothing short of a pandemic. But what exactly is a decoupled architecture?'
+    format: basic_html
+    processed: 'One of the major topics of discussion in the Drupal community has been decoupled (or headless) Drupal. Depending on who you ask, it’s either the best way to build break-through user experiences, or nothing short of a pandemic. But what exactly is a decoupled architecture?'
+field_topic:
+  -
+    value: Miscelaneous
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.f1dae084-8feb-4fd7-9c1a-67a01b8e5ffc
+    media:
+      - media.image.d3a90005-5751-4ce3-92c5-130bcb225fa4

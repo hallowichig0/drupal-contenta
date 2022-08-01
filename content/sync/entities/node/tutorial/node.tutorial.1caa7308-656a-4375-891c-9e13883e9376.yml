@@ -1,0 +1,79 @@
+uuid:
+  -
+    value: 1caa7308-656a-4375-891c-9e13883e9376
+langcode:
+  -
+    value: en
+type:
+  -
+    target_id: tutorial
+    target_type: node_type
+    target_uuid: c4052544-e630-473f-ae0d-7b39982e39bb
+revision_timestamp:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: 57dfe019-2e28-4745-8932-ea1013c20924
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_type: user
+    target_uuid: 57dfe019-2e28-4745-8932-ea1013c20924
+title:
+  -
+    value: 'Working with Relationships'
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+field_image:
+  -
+    target_type: media
+    target_uuid: f806e1c5-abba-4973-b031-e36c0be394de
+field_link:
+  -
+    uri: 'https://www.youtube.com/watch?v=TMuyfNkHiKE&index=4&list=PLZOQ_ZMpYrZsyO-3IstImK1okrpfAjuMZ'
+    title: 'Watch Video'
+    options: {  }
+field_summary:
+  -
+    value: 'Relationships in JSON API allow you to reference related pieces of content. This video describes how to interact with relationships in JSON API'
+    format: basic_html
+    processed: 'Relationships in JSON API allow you to reference related pieces of content. This video describes how to interact with relationships in JSON API'
+field_topic:
+  -
+    value: 'JSON API'
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.57dfe019-2e28-4745-8932-ea1013c20924
+    media:
+      - media.image.f806e1c5-abba-4973-b031-e36c0be394de

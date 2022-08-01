@@ -1,0 +1,33 @@
+uuid:
+  -
+    value: 7e518f40-025c-4eb4-bc99-10ea3ad99275
+langcode:
+  -
+    value: en
+name:
+  -
+    value: 'Megan Collins Quinlan'
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+user_picture: {  }
+_content_sync:
+  entity_type: user
+pass:
+  -
+    value: null
+    pre_hashed: true
+mail:
+  value: uSEfnHeQ@example.com
+status:
+  value: '1'
+roles:
+  - authenticated

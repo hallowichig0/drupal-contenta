@@ -1,0 +1,79 @@
+uuid:
+  -
+    value: 4f56556d-e31a-4259-a431-19a61a83bdb0
+langcode:
+  -
+    value: en
+type:
+  -
+    target_id: tutorial
+    target_type: node_type
+    target_uuid: c4052544-e630-473f-ae0d-7b39982e39bb
+revision_timestamp:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: 57dfe019-2e28-4745-8932-ea1013c20924
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_type: user
+    target_uuid: 57dfe019-2e28-4745-8932-ea1013c20924
+title:
+  -
+    value: 'Removing Records'
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+field_image:
+  -
+    target_type: media
+    target_uuid: 0398a884-6e7e-4ef0-b6f0-83b4b76964cb
+field_link:
+  -
+    uri: 'https://www.youtube.com/watch?v=qTx45d9BdmM&index=16&list=PLZOQ_ZMpYrZsyO-3IstImK1okrpfAjuMZ'
+    title: 'Watch Video'
+    options: {  }
+field_summary:
+  -
+    value: 'When you need to remove content from Drupal using JSON API you can use the DELETE method.'
+    format: basic_html
+    processed: 'When you need to remove content from Drupal using JSON API you can use the DELETE method.'
+field_topic:
+  -
+    value: 'JSON API'
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.57dfe019-2e28-4745-8932-ea1013c20924
+    media:
+      - media.image.0398a884-6e7e-4ef0-b6f0-83b4b76964cb

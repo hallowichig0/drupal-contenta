@@ -1,0 +1,79 @@
+uuid:
+  -
+    value: f6b648a1-a9b0-41c1-aad2-3119978631a7
+langcode:
+  -
+    value: en
+type:
+  -
+    target_id: tutorial
+    target_type: node_type
+    target_uuid: c4052544-e630-473f-ae0d-7b39982e39bb
+revision_timestamp:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: 09cdee56-b553-47ac-91be-ac92c694d92c
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_type: user
+    target_uuid: 09cdee56-b553-47ac-91be-ac92c694d92c
+title:
+  -
+    value: 'Decoupled Drupal Hard Problems: Schemas'
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+field_image:
+  -
+    target_type: media
+    target_uuid: d33f16e1-2573-4ca7-b9f3-2da5a7a83bf5
+field_link:
+  -
+    uri: 'https://www.lullabot.com/articles/decoupled-drupal-hard-problems-schemas'
+    title: 'Read Article'
+    options: {  }
+field_summary:
+  -
+    value: 'The Schemata module is our best approach so far in order to provide schemas for our API resources. Unfortunately, this solution is often not good enough. How can we improve this situation?'
+    format: basic_html
+    processed: 'The Schemata module is our best approach so far in order to provide schemas for our API resources. Unfortunately, this solution is often not good enough. How can we improve this situation?'
+field_topic:
+  -
+    value: Miscelaneous
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.09cdee56-b553-47ac-91be-ac92c694d92c
+    media:
+      - media.image.d33f16e1-2573-4ca7-b9f3-2da5a7a83bf5

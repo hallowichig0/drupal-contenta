@@ -1,0 +1,13 @@
+uuid: 821d5695-aba1-4d0f-8797-0b0bf94e97be
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - recipes_magazin
+_core:
+  default_config_hash: E3NuWjuPHpLETZm1RxWkIFURN0t3aPlWAZ8gP43YcIA
+id: umami_dates
+label: 'Umami dates'
+locked: false
+pattern: 'jS F Y'

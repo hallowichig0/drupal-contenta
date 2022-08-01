@@ -1,0 +1,33 @@
+uuid:
+  -
+    value: 7c62b293-08c0-4631-9145-4c638019ded5
+langcode:
+  -
+    value: en
+uid: {  }
+filename:
+  -
+    value: veggie-pasta-bake-hero-umami.jpg
+uri:
+  -
+    value: 'public://veggie-pasta-bake-hero-umami.jpg'
+    url: /sites/default/files/veggie-pasta-bake-hero-umami.jpg
+filemime:
+  -
+    value: image/jpeg
+filesize:
+  -
+    value: 225830
+status:
+  -
+    value: true
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file

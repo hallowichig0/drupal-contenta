@@ -1,0 +1,79 @@
+uuid:
+  -
+    value: bccecd76-ad51-4639-b351-9e482e539f58
+langcode:
+  -
+    value: en
+type:
+  -
+    target_id: tutorial
+    target_type: node_type
+    target_uuid: c4052544-e630-473f-ae0d-7b39982e39bb
+revision_timestamp:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: 49b4815a-c4ad-40a0-89e6-7868e93a32c2
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_type: user
+    target_uuid: 49b4815a-c4ad-40a0-89e6-7868e93a32c2
+title:
+  -
+    value: 'The 3 C''s + the 1 D of Drupal: Why Decoupled Matters'
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+field_image:
+  -
+    target_type: media
+    target_uuid: ef21cb8d-8d9d-47d4-ac85-33bf7931e89b
+field_link:
+  -
+    uri: 'https://www.mediacurrent.com/blog/3-cs-1-d-drupal-why-decoupled-matters'
+    title: 'Read Article'
+    options: {  }
+field_summary:
+  -
+    value: 'Decoupled has been in place for a few years, but the Open Source and Drupal community are really beginning to rally around it, as evidenced by more than 100 professionals gathering in NYC last weekend at 30 Rock.'
+    format: basic_html
+    processed: 'Decoupled has been in place for a few years, but the Open Source and Drupal community are really beginning to rally around it, as evidenced by more than 100 professionals gathering in NYC last weekend at 30 Rock.'
+field_topic:
+  -
+    value: Miscelaneous
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.49b4815a-c4ad-40a0-89e6-7868e93a32c2
+    media:
+      - media.image.ef21cb8d-8d9d-47d4-ac85-33bf7931e89b

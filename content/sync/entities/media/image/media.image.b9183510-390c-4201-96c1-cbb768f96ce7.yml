@@ -1,0 +1,70 @@
+uuid:
+  -
+    value: b9183510-390c-4201-96c1-cbb768f96ce7
+langcode:
+  -
+    value: en
+bundle:
+  -
+    target_id: image
+    target_type: media_type
+    target_uuid: 588b2ee9-08f7-4e4a-aa8d-198563832e00
+revision_created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_user: {  }
+revision_log_message: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_id: 0
+    target_type: user
+    target_uuid: 8d62617e-3264-4653-b785-dc1cbff69afb
+name:
+  -
+    value: jsonapi-6.png
+thumbnail:
+  -
+    alt: null
+    title: null
+    width: 1280
+    height: 720
+    target_type: file
+    target_uuid: d76790e4-f32e-4352-8119-9a96e4c0e69a
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+field_image:
+  -
+    alt: null
+    title: null
+    width: 1280
+    height: 720
+    target_type: file
+    target_uuid: d76790e4-f32e-4352-8119-9a96e4c0e69a
+_content_sync:
+  entity_type: media
+  entity_dependencies:
+    user:
+      - user.user.8d62617e-3264-4653-b785-dc1cbff69afb
+    file:
+      - file.file.d76790e4-f32e-4352-8119-9a96e4c0e69a

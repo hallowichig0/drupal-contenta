@@ -1,0 +1,33 @@
+uuid:
+  -
+    value: 41526b9e-63c9-4842-b1f0-88ce37644e48
+langcode:
+  -
+    value: en
+uid: {  }
+filename:
+  -
+    value: jsonapi-2.png
+uri:
+  -
+    value: 'public://jsonapi-2.png'
+    url: /sites/default/files/jsonapi-2.png
+filemime:
+  -
+    value: image/png
+filesize:
+  -
+    value: 1185305
+status:
+  -
+    value: true
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file

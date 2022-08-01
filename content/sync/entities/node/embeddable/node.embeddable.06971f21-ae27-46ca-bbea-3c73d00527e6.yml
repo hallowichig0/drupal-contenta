@@ -1,0 +1,73 @@
+uuid:
+  -
+    value: 06971f21-ae27-46ca-bbea-3c73d00527e6
+langcode:
+  -
+    value: en
+type:
+  -
+    target_id: embeddable
+    target_type: node_type
+    target_uuid: b687700d-a47c-4256-8a43-e04b37ad2f19
+revision_timestamp:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_id: 0
+    target_type: user
+    target_uuid: 8d62617e-3264-4653-b785-dc1cbff69afb
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_id: 0
+    target_type: user
+    target_uuid: 8d62617e-3264-4653-b785-dc1cbff69afb
+title:
+  -
+    value: 'Edition of the month'
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+background_image:
+  -
+    target_type: media
+    target_uuid: 721bf506-8004-45a6-a40b-c87af6d78b2f
+reference: {  }
+text:
+  -
+    value: |
+      We are here to proudly present you ...
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.8d62617e-3264-4653-b785-dc1cbff69afb
+    media:
+      - media.image.721bf506-8004-45a6-a40b-c87af6d78b2f

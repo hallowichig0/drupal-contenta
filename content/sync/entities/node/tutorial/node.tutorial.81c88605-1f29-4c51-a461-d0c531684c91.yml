@@ -1,0 +1,79 @@
+uuid:
+  -
+    value: 81c88605-1f29-4c51-a461-d0c531684c91
+langcode:
+  -
+    value: en
+type:
+  -
+    target_id: tutorial
+    target_type: node_type
+    target_uuid: c4052544-e630-473f-ae0d-7b39982e39bb
+revision_timestamp:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: 21076e62-44ce-4c98-9f6a-15b29dafe398
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_type: user
+    target_uuid: 21076e62-44ce-4c98-9f6a-15b29dafe398
+title:
+  -
+    value: 'Contenta Docker: GraphQL and Apollo'
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+field_image:
+  -
+    target_type: media
+    target_uuid: 751562c2-9feb-46fb-a5e1-0d30b2a51213
+field_link:
+  -
+    uri: 'https://www.youtube.com/watch?v=DqySMqvJ5ro'
+    title: 'Watch Video'
+    options: {  }
+field_summary:
+  -
+    value: 'In addition to REST, Contenta includes an instance of GraphQL. In this screencast, we''ll use the apollo-client web component to pull data into our Polymer frontend application.'
+    format: basic_html
+    processed: 'In addition to REST, Contenta includes an instance of GraphQL. In this screencast, we''ll use the apollo-client web component to pull data into our Polymer frontend application.'
+field_topic:
+  -
+    value: GraphQL
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.21076e62-44ce-4c98-9f6a-15b29dafe398
+    media:
+      - media.image.751562c2-9feb-46fb-a5e1-0d30b2a51213

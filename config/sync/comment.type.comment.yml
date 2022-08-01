@@ -1,0 +1,13 @@
+uuid: 78a7b997-520e-48ac-bc2d-3b0d3f76a2c4
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - recipes_magazin
+_core:
+  default_config_hash: z7AEOztMOVtn5LHypdM8tpgs_Q2-__Sx2Xt6VWQaKRg
+id: comment
+label: 'Default comments'
+target_entity_type_id: node
+description: 'Allows commenting on content'

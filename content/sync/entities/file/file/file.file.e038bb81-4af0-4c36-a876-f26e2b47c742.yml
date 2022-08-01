@@ -1,0 +1,33 @@
+uuid:
+  -
+    value: e038bb81-4af0-4c36-a876-f26e2b47c742
+langcode:
+  -
+    value: en
+uid: {  }
+filename:
+  -
+    value: vue.png
+uri:
+  -
+    value: 'public://vue.png'
+    url: /sites/default/files/vue.png
+filemime:
+  -
+    value: image/png
+filesize:
+  -
+    value: 11839
+status:
+  -
+    value: true
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file

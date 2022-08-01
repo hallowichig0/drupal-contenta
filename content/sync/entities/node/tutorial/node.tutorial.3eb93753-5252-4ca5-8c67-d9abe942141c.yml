@@ -1,0 +1,79 @@
+uuid:
+  -
+    value: 3eb93753-5252-4ca5-8c67-d9abe942141c
+langcode:
+  -
+    value: en
+type:
+  -
+    target_id: tutorial
+    target_type: node_type
+    target_uuid: c4052544-e630-473f-ae0d-7b39982e39bb
+revision_timestamp:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: 09cdee56-b553-47ac-91be-ac92c694d92c
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_type: user
+    target_uuid: 09cdee56-b553-47ac-91be-ac92c694d92c
+title:
+  -
+    value: 'Decoupled Drupal Hard Problems: Routing'
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+field_image:
+  -
+    target_type: media
+    target_uuid: fd425a85-8d8b-41a5-a612-4df988e7fce0
+field_link:
+  -
+    uri: 'https://www.lullabot.com/articles/decoupled-hard-promblems-routing'
+    title: 'Read Article'
+    options: {  }
+field_summary:
+  -
+    value: 'We know how to create custom paths in Drupal, but in a decoupled scenario things can get trickier.'
+    format: basic_html
+    processed: 'We know how to create custom paths in Drupal, but in a decoupled scenario things can get trickier.'
+field_topic:
+  -
+    value: Miscelaneous
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.09cdee56-b553-47ac-91be-ac92c694d92c
+    media:
+      - media.image.fd425a85-8d8b-41a5-a612-4df988e7fce0

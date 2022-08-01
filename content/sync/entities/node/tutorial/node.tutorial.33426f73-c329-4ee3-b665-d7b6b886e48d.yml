@@ -1,0 +1,79 @@
+uuid:
+  -
+    value: 33426f73-c329-4ee3-b665-d7b6b886e48d
+langcode:
+  -
+    value: en
+type:
+  -
+    target_id: tutorial
+    target_type: node_type
+    target_uuid: c4052544-e630-473f-ae0d-7b39982e39bb
+revision_timestamp:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: 0eff0812-664d-461e-8c15-40a56c641050
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_type: user
+    target_uuid: 0eff0812-664d-461e-8c15-40a56c641050
+title:
+  -
+    value: 'Between the Cracks of Decoupled (Drupal) Architecture'
+created:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-07-31T15:59:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+field_image:
+  -
+    target_type: media
+    target_uuid: 751562c2-9feb-46fb-a5e1-0d30b2a51213
+field_link:
+  -
+    uri: 'https://ohthehugemanatee.org/blog/2017/02/11/a-year-between-the-cracks-of-decoupled-drupal/'
+    title: 'Read Article'
+    options: {  }
+field_summary:
+  -
+    value: 'In this article Campbell Vertesi provides a very insightful look at the issues that can arise when you add the complexity of a decoupled architecture.'
+    format: basic_html
+    processed: 'In this article Campbell Vertesi provides a very insightful look at the issues that can arise when you add the complexity of a decoupled architecture.'
+field_topic:
+  -
+    value: Miscelaneous
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.0eff0812-664d-461e-8c15-40a56c641050
+    media:
+      - media.image.751562c2-9feb-46fb-a5e1-0d30b2a51213
