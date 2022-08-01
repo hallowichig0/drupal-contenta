@@ -134,6 +134,8 @@ display:
           settings:
             image_style: card
             image_link: ''
+            image_loading:
+              attribute: lazy
           group_column: ''
           group_columns: {  }
           group_rows: true

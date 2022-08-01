@@ -36,8 +36,12 @@ NOTE: before running the installation, please make sure to follow the requiremen
 9. Set your `SITE_MAIL`, `ACCOUNT_MAIL`, `SITE_NAME`, `ACCOUNT_NAME`,`ACCOUNT_PASS`.
 10. Run `lando composer install` in the `/drupal-contenta/` directory.
 11. Run `lando composer run-script install:with-mysql` in the `/drupal-contenta/` directory.
-12. To run `drush-cli`, you can use `lando drush`.
-13. Last is to run `lando rebuild -y` in your terminal. Make sure you are in the root directory
+12. Edit settings.php and comment the contenta profile config sync `$settings['config_sync_directory'] = 'profiles/contrib/contenta_jsonapi/config/sync';`. Uncomment the config sync `$settings['config_sync_directory'] = '../config/sync';`
+13. Run `lando drush config-import` to import the configurations. This is optional, you can ignore this if you have you own configurations.
+14. Uncomment
+`if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {  include $app_root . '/' . $site_path . ' settingslocal.php'; }` in `settings.php` to enable development mode
+15. To run `drush-cli`, you can use `lando drush`.
+16. Last is to run `lando rebuild -y` in your terminal. Make sure you are in the root directory
 
 ### # Drupal Installation
 ```
@@ -52,9 +56,11 @@ NOTE: before running the installation, please make sure to follow the requiremen
 6. Set your `SITE_MAIL`, `ACCOUNT_MAIL`, `SITE_NAME`, `ACCOUNT_NAME`,`ACCOUNT_PASS`.
 7. Run `composer install` in the root directory.
 8. Run `composer run-script install:with-mysql` in the root directory.
-9. Uncomment
+9. Edit settings.php and comment the contenta profile config sync `$settings['config_sync_directory'] = 'profiles/contrib/contenta_jsonapi/config/sync';`. Uncomment the config sync `$settings['config_sync_directory'] = '../config/sync';`
+10. Run `lando drush config-import` to import the configurations. This is optional, you can ignore this if you have you own configurations.
+11. Uncomment
 `if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {  include $app_root . '/' . $site_path . ' settingslocal.php'; }` in `settings.php` to enable development mode
-10. Clear cache, Run updb, Run cron
+12. Clear cache, Run updb, Run cron
 
 ### # I get issue with the caching like (Render, Page & Dynamic Page Cache)
 Go to the `settings.local.php`. Comment these line of code:
@@ -72,6 +78,3 @@ List of folders and files to change:
 - root/web/sites/default - 555
 - root/web/sites/default/files - 755
 - root/web/sites/default/settings.php - 444
-
-
-Developed by <a href="https://halcyonwebdesign.com.ph/" target="_blank">Halcyon Web Design</a> Drupal Team

@@ -785,12 +785,17 @@ $databases['default']['default'] = array (
 );
 
 /**
+ * Contenta Profile Config Sync
+ */
+$settings['config_sync_directory'] = 'profiles/contrib/contenta_jsonapi/config/sync';
+
+/**
  * Config Sync
  */
-$settings['config_sync_directory'] = '../config/sync';
+# $settings['config_sync_directory'] = '../config/sync';
 
 /**
  * Content Sync
  */
 global $content_directories;
-$content_directories['sync'] = '../content/sync';
+$content_directories['sync'] = '../content/sync'; 

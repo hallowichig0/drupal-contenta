@@ -1,0 +1,10 @@
+--- core.extension.yml.old	2022-01-08 04:52:48.000000000 +0800
++++ web/profiles/contrib/contenta_jsonapi/config/sync/core.extension.yml	2022-08-01 23:19:29.375270731 +0800
+@@ -65,6 +65,7 @@
+   warmer: 0
+   menu_link_content: 1
+   contenta_jsonapi: 1000
++  mysql: 0
+ theme:
+   stable: 0
+   classy: 0
